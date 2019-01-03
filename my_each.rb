@@ -9,7 +9,7 @@ def my_each (array) # put argument(s) here
   
 end
 
-my_each {
-  puts array[0]
+my_each(idx) {
+  puts array[idx]
 }
 
