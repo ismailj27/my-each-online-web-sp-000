@@ -4,6 +4,7 @@ def my_each (array) # put argument(s) here
   while idx < array.length
     yield
     array = array.pop
+    idx++
   end
   
 end
