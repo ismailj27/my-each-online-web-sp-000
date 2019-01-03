@@ -2,7 +2,7 @@ def my_each (array) # put argument(s) here
   # code here
   idx = 0
   while idx < array.length
-    yield puts array[0]
+    yield array[idx]
     array = array.pop
     idx++
   end
