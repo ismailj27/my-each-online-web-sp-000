@@ -9,6 +9,6 @@ def my_each (array) # put argument(s) here
 end
 
 my_each(array) {
-  puts i
+  puts array[0]
 }
 
