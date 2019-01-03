@@ -6,6 +6,7 @@ def my_each (array) # put argument(s) here
     idx = idx + 1
   end
   
+  array
 end
 
 # my_each(idx) {
