@@ -8,7 +8,7 @@ def my_each (array) # put argument(s) here
   
 end
 
-my_each(array) {
+my_each {
   puts array[0]
 }
 
